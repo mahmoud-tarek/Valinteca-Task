@@ -1,0 +1,63 @@
+@media screen and (min-width: 1200px) {
+    :root {
+        --main-padding: 60px;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url(/images/bg-desktop.png), #FFF;
+        background-size: cover;
+    }
+
+    .welcome {
+        background-color: var(--main-bg);
+        padding: var(--main-padding);
+        display: flex;
+        gap: 60px;
+        border-radius: var(--main-radius);
+    }
+
+    .welcome .welcome-img {
+        width: 450px;
+    }
+
+    .welcome .welcome-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .welcome .welcome-content {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .welcome .welcome-content h1 {
+        font-size: 56px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+
+    .welcome .welcome-content p {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .welcome .welcome-content button {
+        padding: 20px 180px;
+        background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%);
+        box-shadow: 0px 6px 18px #9CADF2;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: #FFF;
+        text-transform: capitalize;
+    }
+
+    form {
+        font-size: 20px;
+    }
+}
